@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import Product from "./pages/Product/Product";
-import Products from "./pages/Products/Products";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Home from "./pages/Home/Home.jsx";
+import Product from "./pages/Product/Product.jsx";
+import Products from "./pages/Products/Products.jsx";
+import Navbar from "./components/Navbar/Navbar.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 import "./App.scss";
 
 const Layout = () => {
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
         element: <Product />,
       },
       {
-        path: "/proiducts/:id",
+        path: "/products/:id",
         element: <Products />,
       },
     ],
