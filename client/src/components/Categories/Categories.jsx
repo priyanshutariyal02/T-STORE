@@ -22,7 +22,7 @@ const Catogories = () => {
             alt=""
           />
           <button>
-            <Link className="link" to="/products/1">
+            <Link className="link" to="/products/2">
               jeans
             </Link>
           </button>
@@ -35,7 +35,7 @@ const Catogories = () => {
             alt=""
           />
           <button>
-            <Link className="link" to="/products/1">
+            <Link className="link" to="/products/3">
               new season
             </Link>
           </button>
@@ -50,7 +50,7 @@ const Catogories = () => {
                 alt=""
               />
               <button>
-                <Link className="link" to="/products/1">
+                <Link className="link" to="/products/4">
                   watches
                 </Link>
               </button>
@@ -63,7 +63,7 @@ const Catogories = () => {
                 alt=""
               />
               <button>
-                <Link className="link" to="/products/1">
+                <Link className="link" to="/products/5">
                   jacket
                 </Link>
               </button>
@@ -76,7 +76,7 @@ const Catogories = () => {
             alt=""
           />
           <button>
-            <Link className="link" to="/products/1">
+            <Link className="link" to="/products/6">
               Shoes
             </Link>
           </button>

@@ -1,3 +1,110 @@
-.product{
-    
+.product {
+  padding: 30px 50px;
+  display: flex;
+  gap: 50px;
+  .left {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+
+    .images {
+      flex: 1;
+      img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        cursor: pointer;
+        margin-bottom: 10px;
+      }
+    }
+    .main-img {
+      flex: 5;
+      img {
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+      }
+    }
+  }
+  .right {
+    letter-spacing: 0.7px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    h1 {
+    }
+    .price {
+      font-size: 30px;
+      color: rgb(255, 10, 112);
+      font-weight: 500;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 350;
+      text-align: justify;
+    }
+    .quantity {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+      button {
+        border: none;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+
+    .add {
+      width: 250px;
+      padding: 10px;
+      background-color: rgb(255, 10, 112);
+      border: none;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      cursor: pointer;
+      font-weight: 700;
+      &:hover {
+        background-color: rgb(255, 66, 145);
+        transition: 0.2s ease;
+      }
+    }
+
+    .links {
+      display: flex;
+      gap: 20px;
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: rgb(255, 10, 112);
+        font-size: 14px;
+        cursor: pointer;
+      }
+    }
+    hr {
+      border: 1px solid rgb(230, 230, 230);
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      color: gray;
+      gap: 10px;
+      font-size: 15px;
+      margin-top: 30px;
+
+      hr {
+        width: 200px;
+        border: 1px solid rgb(230, 230, 230);
+      }
+    }
+  }
 }
